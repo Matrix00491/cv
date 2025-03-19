@@ -177,6 +177,9 @@ aside img {
     display: block;
     border-radius: 50%;
 }
+#mon-qr{
+    border-radius: 10%;
+}
 
 aside h2, section article h2 {
     font-size: 18px;

@@ -2,16 +2,16 @@
 <html lang="fr">
 
 <head>
-	<meta charset="utf-8">
-	<title>CV de Sebastien Dupont</title>
-    <meta name="description" content="Découvrez une démo de CV en HTML et CSS, entièrement responsive, idéale pour s'adapter à tous les écrans. Inspirez-vous pour créer un CV moderne et professionnel." />
-	<meta name="author" content="Alban Guillier">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="utf-8">
+    <title>CV de RAJAGOPAL Pirasath</title>
+    <meta name="description" content="Découvrez une démo de CV en HTML et CSS, entièrement responsive,   idéale pour s'adapter à tous les écrans. Inspirez-vous pour créer un CV moderne et professionnel." />
+    <meta name="author" content="Alban Guillier">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
-	
+
     <!-- HEADER -->
     <header>
         <ul class="container">
@@ -22,74 +22,72 @@
                 </h1>
             </li>
             <li>
-                <strong>Adresse</strong>
-                218 Boulevard du saint simeon<br>60400 Noyon
+                <strong>Adresse</strong> 218 Boulevard du saint simeon<br>60400 Noyon
             </li>
             <li>
-                <strong>Téléphone</strong>
-                07 69 76 16 72
+                <strong>Téléphone</strong> 07 69 76 16 72
             </li>
             <li>
-                <strong>Mail</strong>
-                matrix00491@gmail.com 
+                <strong>Mail</strong> matrix00491@gmail.com
             </li>
         </ul>
     </header>
-    
+
     <main class="container">
-        
+
         <aside>
-        
-            <img src="image/my-image_matrix004.png" alt="Photo du cv"> 
-            
+
+            <img src="image/logo2.svg" alt="Photo du cv">
+            <img id="mon-qr" src="image/moncv-qr.svg" alt="qr du cv">
+            <button onclick="console.log()">scan-me</button>
+
             <article>
-                <h2>Compétences</h2> 
+                <h2>Compétences</h2>
                 <p>
-                    Développeur web<br>
-                    Graphiste<br>
-                </p> 
+                    Développeur web<br> Graphiste
+                    <br>
+                </p>
             </article>
-            
+
             <article>
                 <h2>Langues</h2>
                 <p>
-                    Français<br>
-                    Anglais<br>
-                    Tamoul
+                    Français<br> Anglais
+                    <br> Tamoul
                 </p>
             </article>
-            
+
             <article>
                 <h2>Centre d'intérêt</h2>
                 <p class="noBorder">
-                    Informatique<br>
-                    Sport<br>
-                    Nature<br>
-                    Digital art
+                    Informatique<br> Sport
+                    <br> Nature
+                    <br> Digital art
                 </p>
             </article>
-            
+
         </aside>
-        
+
         <section>
             <div class="container">
                 <article>
                     <h2>Présentation</h2>
-                    <p>Je suis développeur web, spécialisé en HTML, CSS,python, JavaScript, PHP, React, MySQL/MongoDB. Passionné par la modélisation 3D (SketchUp) et les réseaux (Cisco), j’ai aussi une expertise en électricité et électronique. Toujours en apprentissage, j’aime créer des solutions modernes et performantes. Contactez-moi ! 🚀</p>
+                    <p>Je suis développeur web, spécialisé en HTML, CSS,python, JavaScript, PHP, React, MySQL/MongoDB. Passionné par la modélisation 3D (SketchUp) et les réseaux (Cisco), j’ai aussi une expertise en électricité et électronique. Toujours en
+                        apprentissage, j’aime créer des solutions modernes et performantes. Contactez-moi ! 🚀</p>
                 </article>
                 <article>
                     <h2>Formations et diplomes</h2>
                     <ul>
-                        
+
                         <li class="exp">
                             <span class="periode">2021 - 2022</span>
                             <span class="desc">Développeur Web / Web mobile – WebForce3</span>
                         </li>
                         <li class="exp">
                             <span class="periode">2012 - 2015</span>
-                            <span class="desc">Formation Agent Maintenance Chauffage – Apfa Compiègne</span>
+                            <span id="change" class="desc">Formation Agent Maintenance Chauffage – Apfa Compiègne</span>
                         </li>
-                        
+
                         <li class="exp">
                             <span class="periode">2007 - 2009</span>
                             <span class="desc">Niveau CAP/BEP Pro Électricité – Lycée Gourdou Lesseur</span>
@@ -115,8 +113,8 @@
                             <span class="periode">2015</span>
                             <span class="desc"><strong>Installation, raccordement, maintenance et dépannage d'équipements électriques,Mise aux normes des systèmes électriques</strong><br>compétences transversales</span>
                         </li>
-                       
-                        
+
+
                     </ul>
                 </article>
             </div>
@@ -126,12 +124,16 @@
         <ul class="container">
             <li></li>
             <li>
-                <img src="./favicon-Recovered.png" alt="logo Facebook">
+                <img src="./image/logo-matrix.png" alt="logo Facebook">
                 <a href="#">matrix00491@gmail.com</a>
             </li>
         </ul>
     </footer>
-    
+
+    <script>
+        document.getElementById('change').innerHTML
+    </script>
+
 </body>
 
 </html>
