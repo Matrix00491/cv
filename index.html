@@ -14,24 +14,60 @@
 
     <!-- HEADER -->
     <header>
-        <ul class="container">
-            <li>
-                <h1>
-                    <span id="prenom">Pirasath</span>
-                    <span id="nom">RAJAGOPAL</span>
-                </h1>
-            </li>
-            <li>
-                <strong>Adresse</strong> 218 Boulevard du saint simeon<br>60400 Noyon
-            </li>
-            <li>
-                <strong>Téléphone</strong> 07 69 76 16 72
-            </li>
-            <li>
-                <strong>Mail</strong> matrix00491@gmail.com
-            </li>
-        </ul>
-    </header>
+    <header class="brand-header">
+  <img src="logo.png"
+       alt="M∆3× Technical Systems"
+       class="brand-logo">
+
+  <div>
+    <h1>PIRASATH RAJAGOPAL</h1>
+    <h2>Technicien en diagnostic automobile</h2>
+    <p>Diagnostic • Maintenance • Innovation</p>
+  </div>
+</header>
+
+<style>
+.brand-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 24px;
+  background: #080d14;
+  color: white;
+  border-bottom: 2px solid #00baff;
+}
+
+.brand-logo {
+  width: 140px;
+  height: auto;
+  object-fit: contain;
+}
+
+.brand-header h1 {
+  color: #ffffff;
+  margin: 0 0 8px;
+}
+
+.brand-header h2 {
+  color: #29c8ff;
+  font-size: 1.1rem;
+}
+
+.brand-header p {
+  color: #bfcbd8;
+}
+
+@media (max-width: 600px) {
+  .brand-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .brand-logo {
+    width: 110px;
+  }
+}
+</style>
 
     <main class="container">
 
