@@ -261,3 +261,16 @@ footer p {
     padding: 14px;
   }
 }
+
+
+.automotive-services-image {
+  display: block;
+  width: 100%;
+  max-width: 560px;
+  max-height: 240px;
+  margin: 16px auto 20px;
+  object-fit: contain;
+  object-position: center;
+  border: 1px solid #26394d;
+  border-radius: 12px;
+}
