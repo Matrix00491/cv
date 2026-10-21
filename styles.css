@@ -265,7 +265,7 @@ footer p {
 
 .automotive-services-image {
   display: block;
-  width: 50%;
+  width: 100%;
   max-width: 560px;
   max-height: 240px;
   margin: 16px auto 20px;
