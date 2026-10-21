@@ -44,7 +44,7 @@ body {
 .brand-logo {
   display: block;
   width: 145px;
-  max-width: 60%;
+  max-width: 100%;
   height: auto;
   object-fit: contain;
 }
