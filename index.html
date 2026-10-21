@@ -1,175 +1,152 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-    <meta charset="utf-8">
-    <title>CV de RAJAGOPAL Pirasath</title>
-    <meta name="description" content="Découvrez une démo de CV en HTML et CSS, entièrement responsive,   idéale pour s'adapter à tous les écrans. Inspirez-vous pour créer un CV moderne et professionnel." />
-    <meta name="author" content="Alban Guillier">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PIRASATH RAJAGOPAL | M∆3× Technical Systems</title>
+  <meta name="description" content="Profil technique de Pirasath Rajagopal : diagnostic automobile, maintenance, électricité et technologies.">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+  <header class="brand-header">
+    <img src="image/logo.png"
+         alt="Logo M∆3× Technical Systems"
+         class="brand-logo">
 
-    <!-- HEADER -->
-    <header>
-    <header class="brand-header">
-  <img src="logo.png"
-       alt="M∆3× Technical Systems"
-       class="brand-logo">
+    <div>
+      <h1>PIRASATH RAJAGOPAL</h1>
+      <h2>Technicien en diagnostic automobile</h2>
+      <p>Diagnostic • Maintenance • Innovation</p>
+      <p>Noyon, France</p>
+    </div>
+  </header>
 
-  <div>
-    <h1>PIRASATH RAJAGOPAL</h1>
-    <h2>Technicien en diagnostic automobile</h2>
-    <p>Diagnostic • Maintenance • Innovation</p>
-  </div>
-</header>
+  <main class="container">
+    <aside>
+      <article>
+        <h2>Contact</h2>
+        <p>
+          Noyon, France<br>
+          <a href="mailto:matrix00491@gmail.com">matrix00491@gmail.com</a><br>
+          <a href="tel:+33769761672">07 69 76 16 72</a>
+        </p>
+      </article>
 
-<style>
-.brand-header {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  padding: 24px;
-  background: #080d14;
-  color: white;
-  border-bottom: 2px solid #00baff;
-}
-
-.brand-logo {
-  width: 140px;
-  height: auto;
-  object-fit: contain;
-}
-
-.brand-header h1 {
-  color: #ffffff;
-  margin: 0 0 8px;
-}
-
-.brand-header h2 {
-  color: #29c8ff;
-  font-size: 1.1rem;
-}
-
-.brand-header p {
-  color: #bfcbd8;
-}
-
-@media (max-width: 600px) {
-  .brand-header {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .brand-logo {
-    width: 110px;
-  }
-}
-</style>
-
-    <main class="container">
-
-        <aside>
-
-            <img src="image/logo2.svg" alt="Photo du cv">
-            <img id="mon-qr" src="image/moncv-qr.svg" alt="qr du cv">
-            <button onclick="console.log()">scan-me</button>
-
-            <article>
-                <h2>Compétences</h2>
-                <p>
-                    Développeur web<br> Graphiste
-                    <br>
-                </p>
-            </article>
-
-            <article>
-                <h2>Langues</h2>
-                <p>
-                    Français<br> Anglais
-                    <br> Tamoul
-                </p>
-            </article>
-
-            <article>
-                <h2>Centre d'intérêt</h2>
-                <p class="noBorder">
-                    Informatique<br> Sport
-                    <br> Nature
-                    <br> Digital art
-                </p>
-            </article>
-
-        </aside>
-
-        <section>
-            <div class="container">
-                <article>
-                    <h2>Présentation</h2>
-                    <p>Je suis développeur web, spécialisé en HTML, CSS,python, JavaScript, PHP, React, MySQL/MongoDB. Passionné par la modélisation 3D (SketchUp) et les réseaux (Cisco), j’ai aussi une expertise en électricité et électronique. Toujours en
-                        apprentissage, j’aime créer des solutions modernes et performantes. Contactez-moi ! 🚀</p>
-                </article>
-                <article>
-                    <h2>Formations et diplomes</h2>
-                    <ul>
-
-                        <li class="exp">
-                            <span class="periode">2021 - 2022</span>
-                            <span class="desc">Développeur Web / Web mobile – WebForce3</span>
-                        </li>
-                        <li class="exp">
-                            <span class="periode">2012 - 2015</span>
-                            <span id="change" class="desc">Formation Agent Maintenance Chauffage – Apfa Compiègne</span>
-                        </li>
-
-                        <li class="exp">
-                            <span class="periode">2007 - 2009</span>
-                            <span class="desc">Niveau CAP/BEP Pro Électricité – Lycée Gourdou Lesseur</span>
-                        </li>
-                    </ul>
-                </article>
-                <article>
-                    <h2>Expérience</h2>
-                    <ul class="top10">
-                        <li class="exp">
-                            <span class="periode">2024</span>
-                            <span class="desc"><strong>Compétences en modélisation 3D pour la conception architecturale et technique</strong><br>compétences transversales</span>
-                        </li>
-                        <li class="exp">
-                            <span class="periode">2023</span>
-                            <span class="desc"><strong>Apprentissage des principes de configuration et de gestion des switches Cisco</strong><br>compétences transversales</span>
-                        </li>
-                        <li class="exp">
-                            <span class="periode">2020</span>
-                            <span class="desc"><strong>Installation et paramétrage de caméras de surveillance (réseau)</strong><br>protectbien 94500 </span>
-                        </li>
-                        <li class="exp">
-                            <span class="periode">2015</span>
-                            <span class="desc"><strong>Installation, raccordement, maintenance et dépannage d'équipements électriques,Mise aux normes des systèmes électriques</strong><br>compétences transversales</span>
-                        </li>
-
-
-                    </ul>
-                </article>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <ul class="container">
-            <li></li>
-            <li>
-                <img src="./image/logo-matrix.png" alt="logo Facebook">
-                <a href="#">matrix00491@gmail.com</a>
-            </li>
+      <article>
+        <h2>Compétences techniques</h2>
+        <ul>
+          <li>Électricité et électronique</li>
+          <li>Maintenance et dépannage</li>
+          <li>Initiation au diagnostic automobile</li>
+          <li>Installation d'équipements techniques</li>
+          <li>Réseaux et systèmes informatiques</li>
+          <li>Modélisation 3D avec SketchUp</li>
         </ul>
-    </footer>
+      </article>
 
-    <script>
-        document.getElementById('change').innerHTML
-    </script>
+      <article>
+        <h2>Langues</h2>
+        <p>Français<br>Anglais<br>Tamoul</p>
+      </article>
 
+      <article>
+        <h2>Centres d'intérêt</h2>
+        <p>Automobile • Technologie • Informatique • Innovation</p>
+      </article>
+    </aside>
+
+    <section>
+      <article>
+        <h2>Profil professionnel</h2>
+        <p>
+          Profil technique polyvalent, avec des connaissances en électricité,
+          en maintenance, en électronique et en technologies numériques.
+          Intérêt particulier pour le diagnostic automobile, l'identification
+          des pannes et la compréhension des systèmes électroniques des véhicules.
+          Motivé pour développer mes compétences pratiques et contribuer à des
+          activités de diagnostic et de maintenance.
+        </p>
+      </article>
+
+      <article>
+        <h2>Compétences et domaines d'intérêt automobile</h2>
+        <ul>
+          <li>Compréhension des principes électriques et électroniques</li>
+          <li>Recherche méthodique de pannes techniques</li>
+          <li>Intérêt pour les outils de diagnostic OBD et les calculateurs</li>
+          <li>Maintenance préventive et corrective : connaissances à développer</li>
+        </ul>
+      </article>
+
+      <article>
+        <h2>Formations</h2>
+        <ul class="top10">
+          <li class="exp">
+            <span class="periode">2021 – 2022</span>
+            <span class="desc">
+              <strong>Formation Développeur Web / Web mobile</strong><br>
+              WebForce3
+            </span>
+          </li>
+          <li class="exp">
+            <span class="periode">2012 – 2015</span>
+            <span class="desc">
+              <strong>Formation en maintenance des systèmes de chauffage</strong><br>
+              APFA, Compiègne
+            </span>
+          </li>
+          <li class="exp">
+            <span class="periode">2007 – 2009</span>
+            <span class="desc">
+              <strong>Niveau CAP/BEP en électricité</strong><br>
+              Lycée Gourdou-Leseurre
+            </span>
+          </li>
+        </ul>
+      </article>
+
+      <article>
+        <h2>Expériences et apprentissages techniques</h2>
+        <ul class="top10">
+          <li class="exp">
+            <span class="periode">2024</span>
+            <span class="desc">
+              <strong>Modélisation 3D</strong><br>
+              Apprentissage et utilisation de SketchUp.
+            </span>
+          </li>
+          <li class="exp">
+            <span class="periode">2023</span>
+            <span class="desc">
+              <strong>Réseaux informatiques</strong><br>
+              Apprentissage des principes de configuration des switches Cisco.
+            </span>
+          </li>
+          <li class="exp">
+            <span class="periode">2020</span>
+            <span class="desc">
+              <strong>Installation de caméras de surveillance</strong><br>
+              Installation et paramétrage d'équipements chez Protectbien.
+            </span>
+          </li>
+          <li class="exp">
+            <span class="periode">2015</span>
+            <span class="desc">
+              <strong>Connaissances en électricité</strong><br>
+              Compétences en raccordement, maintenance et dépannage électrique.
+            </span>
+          </li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>M∆3× Technical Systems — Diagnostic • Maintenance • Innovation</p>
+    <p>
+      <a href="mailto:matrix00491@gmail.com">matrix00491@gmail.com</a>
+    </p>
+  </footer>
 </body>
-
 </html>
